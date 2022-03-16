@@ -1,7 +1,7 @@
 import "./PortfolioStyle.scss";
 
 import appleImg from "../../images/apple.png";
-import medicenterImg from "../../images/medicenter.png";
+import medicenterImg from "../../images/mediacenter.png";
 import moviesImg from "../../images/movies.png";
 import portImg from "../../images/portfolio.png";
 import starBucks from "../../images/starbucks.png";
