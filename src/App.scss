@@ -1,0 +1,28 @@
+section{
+    padding: 60px 0 100px 0;
+}
+.titleBar{
+    width: 40px;
+    height: 3px;
+    background-color: #ffb510;
+}
+.sectionTitle{
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .dark{
+        color: #ddd;
+    }
+    .light{
+        color: #232323;
+    }
+}
+footer{
+    padding: 40px 0 60px 0;
+    text-align: center;
+}

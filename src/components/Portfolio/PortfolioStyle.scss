@@ -1,0 +1,105 @@
+#portfolio {
+  width: 100%;
+  .portfolioSection {
+    width: 80%;
+    text-transform: uppercase;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    &:hover {
+      .titleBar {
+        width: 260px;
+      }
+      .dark {
+        color: #fff;
+      }
+      .light {
+        color: #000;
+      }
+    }
+    .portfolioProjects {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30%, 300px));
+      justify-content: center;
+      .card {
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 300px;
+        margin: 20px 10px;
+
+        background-color: #fff;
+        background-position: center;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 10px 2px #232323;
+        border-radius: 2px;
+
+        .cardButtons {
+          position: absolute;
+          bottom: 0;
+          height: 0;
+          opacity: 0;
+          width: 100%;
+          background-color: #232323;
+
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          .buttons {
+            width: 50%;
+            height: 100%;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.5s ease;
+            font-weight: bold;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .buttonLeft:hover {
+            color: #232323;
+            background-color: #ffb510;
+          }
+          .buttonRight:hover {
+            background-color: #e91e63;
+          }
+          @media (max-width: 768px) {
+            height: 60px;
+            opacity: 1;
+            .buttonLeft {
+              color: #232323;
+              background-color: #ffb510;
+            }
+            .buttonRight {
+              background-color: #e91e63;
+            }
+          }
+        }
+
+        &:hover {
+          background-size: auto 115%;
+          box-shadow: 8px 8px 15px 2px #232323;
+          .cardButtons {
+            height: 60px;
+            opacity: 1;
+          }
+        }
+        @media (max-width: 749px) {
+          margin: 0 0 20px 0;
+        }
+      }
+      @media (max-width: 749px) {
+        grid-template-columns: repeat(auto-fit, minmax(90%, 300px));
+      }
+    }
+  }
+}

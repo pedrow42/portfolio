@@ -1,0 +1,62 @@
+#about{
+    /*background-color: #232323;*/
+    .aboutSection{
+        width: 50%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        .skillsList{
+            margin: 40px 0;
+            p{
+                font-weight: 600;
+            }
+            ul{
+                margin-left: 20px;
+                display: flex;
+                margin-top: 10px;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                li{
+                    margin: 10px;
+                    border: 1px solid #332F2E;
+                    width: 40%;
+                    padding: 10px 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+              }
+        }
+        .skills{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0 10px 0;
+            .skill{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 20px;
+            }
+        }
+        &:hover{
+            .titleBar{
+              width: 170px;
+            }
+            .dark{
+                color: #fff;
+            }
+            .light{
+                color: #000;
+            }
+        }
+        @media(max-width: 768px){
+            width: 80%;
+        }
+    }
+}

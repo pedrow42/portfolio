@@ -1,0 +1,30 @@
+{
+    "header":{
+        "home": "home",
+        "contact": "contact",
+        "portfolio": "portfolio",
+        "about": "about"
+    },
+    "getInTouch": {
+        "message": "get in touch"
+    },
+    "portfolio":{
+        "title": "PORTFOLIO",
+        "access": "ACCESS",
+        "code": "CODE"
+    },
+    "about":{
+        "title":"ABOUT",
+        "text":"Hi! My name is Pedro and I'm a technology student and front-end developer. I am passionate about learning and building ideas that make a positive impact on someone's life. I can make the website you need and help you with your business!",
+        "canHelp":"I can help you with:",
+        "site":"Build a website",
+        "portfolioSite":"Portfolio website",
+        "ecommerce":"Ecommerce",
+        "skills":"Skills:",
+        "andOthers":"...and others."
+    },
+    "contact":{
+        "title":"CONTACT",
+        "message":"If you are interested in talking, you can contact me by the following means:"
+    }
+}

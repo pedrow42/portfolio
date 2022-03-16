@@ -1,0 +1,31 @@
+{
+    "header": {
+        "selectLanguage": "Selecione a linguagem",
+        "home": "início",
+        "contact": "contato",
+        "portfolio": "portfólio",
+        "about": "sobre"
+    },
+    "getInTouch": {
+        "message": "entre em contato"
+    },
+    "portfolio":{
+        "title": "PORTFÓLIO",
+        "access": "ACESSAR",
+        "code": "CÓDIGO"
+    },
+    "about":{
+        "title":"SOBRE",
+        "text":"Olá! Meu nome é Pedro e eu sou estudante de tecnologia e desenvolvedor front-end. Sou apaixonado por aprender e construir idéias que causem impacto positivo na vida de alguém. Eu posso fazer o site que você precisa e assim ajudá-l(a)o com seu negócio!",
+        "canHelp":"Eu posso te ajudar com:",
+        "site":"Criação de Sites",
+        "portfolioSite":"Site de portfólio",
+        "ecommerce":"Loja Virtual",
+        "skills":"Habilidades:",
+        "andOthers":"...e outras."
+    },
+    "contact":{
+        "title":"CONTATO",
+        "message":"Se tiver interesse em conversar, pode me contatar pelos seguintes meios:"
+    }
+}
