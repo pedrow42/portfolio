@@ -39,7 +39,7 @@ export default function Header() {
   };
 
   let imageURL = "";
-  if (state.theme === "LIGHT") {
+  if (state.theme === "DARK") {
     imageURL = "https://img.icons8.com/ios-filled/26/000000/sun--v1.png";
   } else {
     imageURL =
@@ -97,7 +97,7 @@ export default function Header() {
               }}
             >
               <img
-                src="https://img.icons8.com/office/20/000000/usa.png"
+                src="https://img.icons8.com/office/24/000000/usa.png"
                 alt="en"
               />
             </a>
@@ -143,7 +143,7 @@ export default function Header() {
               }}
             >
               <img
-                src={"https://img.icons8.com/office/16/000000/brazil.png"}
+                src={"https://img.icons8.com/office/24/000000/brazil.png"}
                 alt="pt-BR"
               />
             </a>
@@ -154,7 +154,7 @@ export default function Header() {
               }}
             >
               <img
-                src="https://img.icons8.com/office/16/000000/usa.png"
+                src="https://img.icons8.com/office/24/000000/usa.png"
                 alt="en"
               />
             </a>
