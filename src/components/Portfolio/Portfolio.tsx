@@ -1,11 +1,11 @@
 import "./PortfolioStyle.scss";
 
-/*import appleImg from "../../images/apple.png";
-import medicenterImg from "../../images/mediacenter.png";
-import moviesImg from "../../images/movies.png";
-import portImg from "../../images/portfolio.png";
-import starBucks from "../../images/starbucks.png";
-import starWars from "../../images/starWars.png";*/
+import apple from "../../images/apple.png";
+import medicenter from "../../images/mediacenter.png";
+import movies from "../../images/movies.png";
+import portfolio from "../../images/portfolio.png";
+import starbucks from "../../images/starbucks.png";
+import starwars from "../../images/starWars.png";
 import { useTranslation } from "react-i18next";
 import { useContext } from "react";
 import { GlobalContext } from "../../context/GlobalState";
@@ -23,7 +23,7 @@ export default function Portfolio() {
         </div>
 
         <div className="portfolioProjects">
-          <div className="card" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9jdXN8ZW58MHx8MHx8&w=1000&q=80` }}>
+          <div className="card" style={{ backgroundImage: `url(${portfolio})` }}>
             <div className="cardButtons">
               <a href="./" className="buttons buttonLeft">
                 {t("portfolio:access")}
@@ -33,7 +33,7 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-          <div className="card" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9jdXN8ZW58MHx8MHx8&w=1000&q=80` }}>
+          <div className="card" style={{ backgroundImage: `url(${movies})` }}>
             <div className="cardButtons">
               <a
                 href="https://movie-store-react.vercel.app/"
@@ -49,7 +49,7 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-          <div className="card" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9jdXN8ZW58MHx8MHx8&w=1000&q=80)` }}>
+          <div className="card" style={{ backgroundImage: `url(${starwars})` }}>
             <div className="cardButtons">
               <a
                 href="https://starwarscatalog.vercel.app/"
@@ -67,7 +67,7 @@ export default function Portfolio() {
           </div>
           <div
             className="card"
-            style={{ backgroundImage: `url(https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9jdXN8ZW58MHx8MHx8&w=1000&q=80)` }}
+            style={{ backgroundImage: `url(${starbucks})` }}
           >
             <div className="cardButtons">
               <a
@@ -86,7 +86,7 @@ export default function Portfolio() {
           </div>
           <div
             className="card"
-            style={{ backgroundImage: `url(https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9jdXN8ZW58MHx8MHx8&w=1000&q=80` }}
+            style={{ backgroundImage: `url(${medicenter})` }}
           >
             <div className="cardButtons">
               <a
@@ -103,7 +103,7 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-          <div className="card" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9jdXN8ZW58MHx8MHx8&w=1000&q=80)` }}>
+          <div className="card" style={{ backgroundImage: `url(${apple})` }}>
             <div className="cardButtons">
               <a
                 href="https://apple-snowy.vercel.app/"
