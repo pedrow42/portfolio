@@ -86,7 +86,7 @@ export default function Header() {
               }}
             >
               <img
-                src={"https://img.icons8.com/office/20/000000/brazil.png"}
+                src={"https://img.icons8.com/office/24/000000/brazil.png"}
                 alt="pt-BR"
               />
             </a>
