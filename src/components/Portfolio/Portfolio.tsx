@@ -21,7 +21,7 @@ export default function Portfolio() {
               <a href="./" className="buttons buttonLeft">
                 {t("portfolio:access")}
               </a>
-              <a href="#" className="buttons buttonRight">
+              <a href="https://github.com/pedrow42/portfolio" className="buttons buttonRight">
                 {t("portfolio:code")}
               </a>
             </div>
