@@ -1,11 +1,11 @@
 import "./PortfolioStyle.scss";
 
-import apple from "../../images/apple.png";
-import medicenter from "../../images/mediacenter.png";
-import movies from "../../images/movies.png";
-import portfolio from "../../images/portfolio.png";
-import starbucks from "../../images/starbucks.png";
-import starwars from "../../images/starWars.png";
+import apple from '../../images/apple.png';
+import medicenter from '../../images/mediacenter.png';
+import movies from '../../images/movies.png';
+import portfolio from '../../images/portfolio.png';
+import starbucks from '../../images/starbucks.png';
+import starwars from '../../images/starWars.png';
 import { useTranslation } from "react-i18next";
 import { useContext } from "react";
 import { GlobalContext } from "../../context/GlobalState";
