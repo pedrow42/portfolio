@@ -1,7 +1,6 @@
 import "./PortfolioStyle.scss";
 
 import Apple from "../../images/apple.png";
-import Medicenter from "../../images/medicenter.png";
 import Movies from "../../images/movies.png";
 import Port from "../../images/portfolio.png";
 import Starbucks from "../../images/starbucks.png";
@@ -86,7 +85,7 @@ export default function Portfolio() {
           </div>
           <div
             className="card"
-            style={{ backgroundImage: `url(${Medicenter})` }}
+            style={{ backgroundImage: `url(${Apple})` }}
           >
             <div className="cardButtons">
               <a
